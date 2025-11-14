@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #333;
+}
+
+header {
+    background: #111;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 90px 20px;
+    background: linear-gradient(to right, #6200ea, #9c27b0);
+    color: white;
+}
+
+.hero span {
+    color: yellow;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: white;
+    color: #6200ea;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 50px 20px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills li {
+    background: #6200ea;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+.card {
+    background: #eee;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
